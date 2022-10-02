@@ -1,6 +1,6 @@
 /**
  ****************************************************************
- *	carry_look_ahead_forecast
+ *	carry_look_ahead_exponential
  *
  * @details
  *	Calculate the whole carry_out for the next addition.
@@ -32,7 +32,7 @@
  ****************************************************************
  */
 
-module carry_look_ahead_forecast #(
+module carry_look_ahead_exponential #(
 	parameter BIT_WIDTH = 4
 ) (
 	operand1,
